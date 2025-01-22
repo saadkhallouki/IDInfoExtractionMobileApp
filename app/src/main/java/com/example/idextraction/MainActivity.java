@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         Request request = new Request.Builder()
-                .url("http://192.168.1.6:8080/api/public/api")
+                .url("http://192.168.1.6:8080/api")
                 .post(requestBody)
                 .build();
 
